@@ -1,0 +1,473 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Fase1.ipynb",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/educelestino/studies/blob/master/Python%20Fundamentals%20-%20Fase1.ipynb%20-%20With%20Qoda%20-%20Maratona%20Data%20Science\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "CYNAmoj4zSXl",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que mostre a mensagem \"Alo mundo\" na tela."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ViAfpy3GzPN-",
+        "colab_type": "code",
+        "outputId": "b7951c1e-d069-4e9e-f873-5fac8d40a1c6",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "print('Alo mundo')"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Alo mundo\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "gdMis92izSmQ",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que peça dois números e imprima a soma."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "BFpWkdCBz_zh",
+        "colab_type": "code",
+        "outputId": "79cf5fd3-7a06-4918-c201-2e4048ecb057",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        }
+      },
+      "source": [
+        "x = input('Forneça um número ')\n",
+        "y = input('Forneça um segundo número ')\n",
+        "soma = a + b\n",
+        "print(f'A soma dos números fornecidos é: {soma}')"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Forneça um número 5\n",
+            "Forneça um segundo número 4\n",
+            "A soma dos números fornecidos é: 9\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "E_0l_Vx6zSo2",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que peça um número e então mostre a mensagem O número informado foi [número]."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "KwJf7XZS0AZW",
+        "colab_type": "code",
+        "outputId": "d0e20edc-1983-4fd0-97fb-0fab15e641f2",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        }
+      },
+      "source": [
+        "x = input('Informe um número ')\n",
+        "print(f'O número informado foi {x}')"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Informe um número 262\n",
+            "O número informado foi 262\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "1i4VCiiczSrL",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que converta metros para centímetros."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "yoW67hjA0BHy",
+        "colab_type": "code",
+        "outputId": "049811e8-49b3-46aa-a244-3a0b79a8ce20",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        }
+      },
+      "source": [
+        "x = float(input(\"Informe sua altura em metros: \"))\n",
+        "y = int(x*100)\n",
+        "print(f\"Sua Altura em centímetros é {y} cm\")"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Informe sua altura em metros: 1.75\n",
+            "Sua Altura em centímetros é 175 cm\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "4ep7kezvzStO",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que peça as 4 notas bimestrais e mostre a média."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "6K6IHWdr0Blt",
+        "colab_type": "code",
+        "outputId": "cc83001c-24fc-4280-af8e-b31ff8650dc4",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 119
+        }
+      },
+      "source": [
+        "x = float(input(\"Nota 1 = \"))\n",
+        "y = float(input(\"Nota 2 = \"))\n",
+        "w = float(input(\"Nota 3 = \"))\n",
+        "z = float(input(\"Nota 4 = \"))\n",
+        "media = round((x+y+w+z)/4,2)\n",
+        "print(f\"A média final do Aluno é {media}.\")\n",
+        "if(media>6): print(\"O Aluno está APROVADO!!!\")\n",
+        "else: print(\"O Aluno está REPROVADO!!!\")"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Nota 1 = 5.5\n",
+            "Nota 2 = 5.9\n",
+            "Nota 3 = 8.7\n",
+            "Nota 4 = 7.4\n",
+            "A média final do Aluno é 6.88.\n",
+            "O Aluno está APROVADO!!!\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "u6__NaXqzeYg",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que peça o raio de um círculo, calcule e mostre sua área."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "mm2L7g3x0Cfx",
+        "colab_type": "code",
+        "outputId": "ff34bf1d-42ef-4fe3-f102-c2a19d4bc16b",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        }
+      },
+      "source": [
+        "import math\n",
+        "x = float(input(\"Insira o valor do raio do circulo em centímetros: \"))\n",
+        "AreaCirculo = round(float((math.pi*x**2)/2),2)\n",
+        "\n",
+        "print(f\"A área do círculo de raio {x}cm é igual a {AreaCirculo}cm\")"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Insira o valor do raio do circulo em centímetros: 7.8\n",
+            "A área do círculo de raio 7.8cm é igual a 95.57cm\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "lIlfG-ATzgOr",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "-y4pB6br0DD_",
+        "colab_type": "code",
+        "outputId": "ac222f5c-1f7e-489d-ccbe-8662cce2dfd7",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        }
+      },
+      "source": [
+        "x = float(input(\"Informe a dimensão do lado do quadrado em milímetros: \"))\n",
+        "AreaQuadrado = round((x**2),2)\n",
+        "AreaMult = round(float(AreaQuadrado*2),2)\n",
+        "print(f\"A Area do quadrado informado é {AreaQuadrado}mm² e esta multiplicada por 2 é {AreaMult}mm².\")"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Informe a dimensão do lado do quadrado em milímetros: 7.88\n",
+            "A Area do quadrado informado é 62.09mm² e esta multiplicada por 2 é 124.18mm².\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Vj4OXsJQziu_",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "RmApGpg30D00",
+        "colab_type": "code",
+        "outputId": "8aecf1a3-0e65-41f9-ffc4-41ccabc63e3a",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        }
+      },
+      "source": [
+        "x = float(input(\"Informe o valor do seu salário por hora: \"))\n",
+        "y = float(input(\"informe o núero de horas trabalhadas na Semana: \"))\n",
+        "salario = round(float((x*y)*4),2)\n",
+        "print(f\"O seu salário mensal é de R${salario}\")"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Informe o valor do seu salário por hora: 13.33\n",
+            "informe o núero de horas trabalhadas na Semana: 40\n",
+            "O seu salário mensal é de R$2132.8\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "e7id8Ewgzlow",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius.\n",
+        "C = (5 * (F-32) / 9)."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Kl0ainsv0Eif",
+        "colab_type": "code",
+        "outputId": "c5a94629-b5ea-4e56-fc4c-ed9dc9f8c07f",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        }
+      },
+      "source": [
+        "Faren = float(input(\"insira a temperatura em Farenheit (°F): \"))\n",
+        "Cels = float(round((5*(Faren-32)/9),2))\n",
+        "print(f\"A temperatura em graus celsius é de {Cels}°C\")"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "insira a temperatura em Farenheit (°F): 78\n",
+            "A temperatura em graus celsius é de 25.56°C\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "mFCgXRPaznno",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que peça a temperatura em graus Celsius, transforme e mostre em graus Farenheit."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "xEAAHRi00FS8",
+        "colab_type": "code",
+        "outputId": "50b3ffc5-dc18-4004-899b-18e4a8ce9bc6",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        }
+      },
+      "source": [
+        "cels2 = float(input(\"insira a temperatura em Celsius (°C): \"))\n",
+        "faren2 = float(round((9*(cels2)/5)+32,2))\n",
+        "print(f\"A temperatura em Farenheit é de {faren2}°F\")"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "insira a temperatura em Celsius (°C): 25\n",
+            "A temperatura em Farenheit é de 77.0°F\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "j3fdhu-8zqu9",
+        "colab_type": "text"
+      },
+      "source": [
+        "Crie um algoritmo em Python que peça 2 números inteiros e um número real. Calcule e mostre:\n",
+        "* a soma do dobro do primeiro com metade do segundo .\n",
+        "* a soma do triplo do primeiro com o terceiro.\n",
+        "* o terceiro elevado ao cubo."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ZEqZrKjt0F5B",
+        "colab_type": "code",
+        "outputId": "86037992-50bb-4035-a88c-8b81aefced45",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 119
+        }
+      },
+      "source": [
+        "a1 = int(input(\"Forneça um número inteiro: \"))\n",
+        "b1 = int(input(\"Forneça outro número inteiro: \"))\n",
+        "c1 = float(input(\"Agora forneça um número real: \"))\n",
+        "\n",
+        "a = float(round((a1*2)+(b1/2),2))\n",
+        "b = float(round((3*a1)+(c1),2))\n",
+        "c = float(round(c1**3,2))\n",
+        "\n",
+        "print(f\"a soma do dobro do primeiro com metade do segundo é igual a {a}\")\n",
+        "print(f\"a soma do triplo do primeiro com o terceiro é igual a {b}\")\n",
+        "print(f\"o terceiro elevado ao cubo é igual a {c}\")"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Forneça um número inteiro: 6\n",
+            "Forneça outro número inteiro: 32\n",
+            "Agora forneça um número real: -99\n",
+            "a soma do dobro do primeiro com metade do segundo é igual a 28.0\n",
+            "a soma do triplo do primeiro com o terceiro é igual a -81.0\n",
+            "o terceiro elevado ao cubo é igual a -970299.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
